@@ -1,29 +1,34 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* light gray background */
+    font-family: "Playfair Display", serif;
+    background-color: #f5deb3; /* warm beige background */
+    background-image: url("https://www.transparenttextures.com/patterns/subtle-grid.png"); /* subtle grid texture */
 }
 
 .container {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #fff; /* white background */
+    background-color: #fff; /* off-white background */
     border: 1px solid #ccc; /* light gray border */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* rounded corners */
 }
 
 h1, h2 {
-    color: #00698f; /* dark blue headings */
+    color: #8B4513; /* earthy brown headings */
+    font-weight: bold;
     margin-bottom: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); /* subtle text shadow */
 }
 
 a {
     text-decoration: none;
-    color: #337ab7; /* blue links */
+    color: #00698f; /* dark blue links */
 }
 
 a:hover {
-    color: #23527c; /* darker blue links on hover */
+    color: #4CAF50; /* green links on hover */
+    text-decoration: underline;
 }
 
 video {
@@ -31,6 +36,7 @@ video {
     height: 480px;
     margin-bottom: 20px;
     border: 1px solid #ddd; /* light gray border around video */
+    border-radius: 10px; /* rounded corners */
 }
 
 .audio-container {
@@ -38,6 +44,7 @@ video {
     background-color: #f7f7f7; /* light gray background for audio container */
     padding: 10px;
     border: 1px solid #ccc; /* light gray border around audio container */
+    border-radius: 10px; /* rounded corners */
 }
 
 audio {
